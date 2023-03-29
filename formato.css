@@ -2,10 +2,7 @@ body {
     background-image: url('Images/fondo.png');
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -21,9 +18,7 @@ body {
     top: 40px;
     right: 80px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    z-index: 999;
 }
 
 .menu a {
@@ -32,10 +27,6 @@ body {
     margin: 10px 20px;
     font-size: 20px;
     cursor: pointer;
-}
-
-.menu a:hover {
-    color: #ca7f82;
 }
 
 .footer {
@@ -65,13 +56,17 @@ h2 {
     margin-top: -7%;
 }
 
-h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
+p {
+    color: #ffff;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: Arial;
+    margin-top: 5%;
+    width: 275px;
+    text-align: justify;
 }
 
-.column {
-    flex-basis: 20%;
-    text-align: right;
-    padding-right: 40px;
+#inicio {
+    color: #ca7f82;
+    font-weight: bold;
 }
