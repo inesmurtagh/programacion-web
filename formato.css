@@ -87,12 +87,12 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
-  nav a {
-    margin: 10px;
-  }
 }
 
 /*
