@@ -100,16 +100,11 @@ body {
   }
 
   h1 {
-    font-size: 110px;
-    transform: translate(-17%, 50%);
-    text-align: center;
-    width: 100%;
+    display: none;
   }
 
   h2 {
-    margin-left: 17%;
-    margin-top: -5%;
-    width: 100%;
+    display: none;
  }
 
  .footer {
@@ -117,12 +112,3 @@ body {
 }
 
 }
-
-/*
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background-color:red;
-}
-*/
