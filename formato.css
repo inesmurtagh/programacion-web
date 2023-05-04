@@ -79,9 +79,19 @@ body {
     font-size: 20px;
     margin-bottom: 5px;
  }
+ 
+ /* Visión adaptada al celular */
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
- @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  nav a {
+    margin: 10px;
   }
 }
