@@ -52,29 +52,36 @@ body {
    right: 0;
  }
 
-.contenido{
+.contenido {
   text-align: center;
   flex-basis: 20%;
   text-align: right;
 }
 
+ /* Encabezado */
+ header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100px; /* establece la altura deseada */
+  color: white;
+  margin-left: 15%;
+  margin-top: 4%;
+}
+
  /* Formato palabras */
- h1 {
-    font-size: 130px;
-    font-weight: bold;
-    color: white;
-    margin-left: 15%;
-    margin-top: 11%;
- }
- 
- h2 {
-    font-size: 20px;
-    font-weight: normal;
-    color: white;
-    margin-left: 17%;
-    margin-top: -7%;
- }
- 
+ header h1 {
+  font-size: 130px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: -8%;
+  margin-left: 1.5%;
+}
+
  h3 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -100,7 +107,7 @@ body {
     margin: 10px;
   }
 
-  h1 , h2 {
+  header {
     display: none;
   }
   
