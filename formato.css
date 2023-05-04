@@ -96,17 +96,14 @@ body {
   }
   
   nav a {
+    font-size: 18px;
     margin: 10px;
   }
 
-  h1 {
+  h1 , h2 {
     display: none;
   }
-
-  h2 {
-    display: none;
- }
-
+  
  .footer {
   flex-direction: column;
 }
