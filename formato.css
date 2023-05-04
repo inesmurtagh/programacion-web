@@ -42,20 +42,21 @@ body {
  .footer {
    color: white;
    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
    justify-content: space-between;
-   padding: 50px;
+   padding: 65px;
    position: fixed;
    bottom: 0;
    left: 0;
    right: 0;
  }
- 
- .footer div {
-   flex-basis: 20%;
-   padding-right: 40px;
-   text-align: right;
- }
- 
+
+.contenido{
+  text-align: center;
+  flex-basis: 20%;
+  text-align: right;
+}
 
  /* Formato palabras */
  h1 {
@@ -78,6 +79,7 @@ body {
     font-size: 20px;
     margin-bottom: 5px;
  }
+ 
  
  /* Visión adaptada al celular */
 @media only screen and (max-width: 600px) {
