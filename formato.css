@@ -100,10 +100,17 @@ body {
   }
 
   h1 {
-    transform: translate(-20%, 50%);
+    font-size: 110px;
+    transform: translate(-26%, 50%);
     text-align: center;
     width: 100%;
   }
+
+  h2 {
+    margin-left: 17%;
+    margin-top: -5%;
+    width: 100%;
+ }
 
 }
 
