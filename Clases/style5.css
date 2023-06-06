@@ -1,43 +1,21 @@
-*¨{
-    font-family:"Arial", sans-serif ;
-    font-style: italic;
-    font-weight: 600;
-    font-variant: small-caps;
-    font-size: 10px;
+#caja1{background-color: aqua;
+    border: 5px solid black;}
     
-}
-
-#caja1{
-    border:1px solid red;
-    margin-top: 50px;
-    padding-top: 100px;
-}
-
-#caja2{
-    margin: 10px 20px 30px 40px;
-    /* top right bottom left o clockwise */
-    border:solid red;
-    border-width:1px 10px 30px 50px;
-
-}
-#imagen-responsive{
-    width: 50vw;
-    border: 1px solid red;
-    display: block;
-}
-
-/* display:
--None  
--Block
--Inline
--Inline-block
-*/
-li{
+    #caja2{
+        margin: 10px 20px 30px 40px;
+        border: 1px solid red;
+        border-width: 1px 10px 30px 40px;
+        border-color: aqua red brown;
+    }
+    
+    li{ 
     display: inline;
-    margin-left: 30px;
-}
-span{
-    border:1px solid red;
-    display: block;
-}
-
+    margin: 30px;}
+    
+    #monoespacio{font-family: 'Courier New', Courier, monospace;}
+    
+    *{
+        font-family: Arial, Helvetica, sans-serif;}
+    
+    p{font-weight: 600;
+        font-style: italic;}
