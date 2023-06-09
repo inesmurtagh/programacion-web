@@ -1,45 +1,141 @@
+
 <!DOCTYPE html>
 <html lang="es">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Vlog.</title>
-   <link rel="stylesheet" href="formatoinicio.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleinicio.css">
+  
+    <title>Vlog.</title>
+  
+    <!-- Enlace a los estilos de Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Fuente Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Iconos socialmedia -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  </head>
 
 <body>
   <header>
-    <h1>Vlog.</h1>
-    <h2>by Ines Murtagh</h2>
-  </header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: none;">
+      <div class="container">
+        <!-- Título del menú -->
+        <a class="navbar-brand" href="#" style="color: #e1e1d8; font-size: 19px;">by Inés Murtagh</a>
+        
+        <!-- Botón de hamburguesa para dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Elementos del menú -->
+        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #ca7f82; font-size: 20px;">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./destinos.html" style="color: #837683; font-size: 20px;">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html" style="color: #837683; font-size: 20px;">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto" style="color: #837683; font-size: 20px;">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-   <nav>
-    <a id="actual" href="#">Inicio</a>
-    <a href="./destinos.html">Destinos</a>
-    <a href="./galeria.html">Galería</a>
-    <a href="#">Contacto</a>
+    <div class="vlog">
+      <h1 class="title">Vlog.</h1>
     </div>
-  </nav>
 
-  <footer class="footer">
-    <div class="contenido">
-      <h3>Vienvenid@</h3>
-      <p>En este vlog vas a encontrar los innumerables destinos de las provincias de Argentina.</p>
-    </div>
-    <div class="contenido"> 
-      <h3>Viajar a través de las fotos</h3>
-      <p>En la galería de fotos tendrás la oportunidad de ver las vistas más atractivas e interesantes.</p>
-    </div>
-    <div class="contenido">
-      <h3>Ver los mejores paisajes</h3>
-      <p>Podrás conocer toda la flora y fauna autóctona del país, con su gran cantidad de especies únicas.</p>
-    </div>
-    <div class="contenido">
-      <h3>Visitar lugares destacados</h3>
-      <p>Cada provincia esconde un sinfín de lugares especiales que están esperando a ser descubiertos.</p>
-    </div>
-  </footer>
+    <section class="informacion">
+      <div class="columna">
+        <h4>Vienvenid@</h4>
+        <p>En este vlog vas a encontrar los innumerables destinos de las provincias de Argentina.</p>
+      </div>
+      <div class="columna"> 
+        <h4>Viajar con las fotos</h4>
+        <p>En la galería de fotos tendrás la oportunidad de ver las vistas más atractivas e interesantes.</p>
+      </div>
+      <div class="columna">
+        <h4>Ver los mejores paisajes</h4>
+        <p>Podrás conocer toda la flora y fauna autóctona del país, con su gran cantidad de especies únicas.</p>
+      </div>
+      <div class="columna">
+        <h4>Visitar los destacados</h4>
+        <p>Cada provincia esconde un sinfín de lugares especiales esperando a ser descubiertos.</p>
+      </div>
+    </section>
+
+    </header>
+
+      <section id="contacto">
+        <div class="formulario">
+            <h1>Contacto</h1>
+            <form>
+              <input type="text" placeholder="Nombre y Apellido" required />
+              <input type="mail" placeholder="Correo electrónico" required />
+              <textarea id="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+              <br />
+              <br />
+              <br />
+              <button class="btn" id="botonenviar">Enviar</button>
+              <br />
+              <br />
+            </form>
+        </div>
+      </section>
+
+      <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div>
+                <p style="color: white;">Copyright © 2023 derechos reservados</p>
+            </div>
+            <div class="social-media">
+                <a class="social-media-icon" id="youtube-button"><i class='bx bxl-youtube'></i></a>
+                <a class="social-media-icon" id="whatsapp-button"> <i class='bx bxl-whatsapp'></i></a>
+                <a class="social-media-icon" id="instagram-button"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
+
+<script>
+
+  // botones
+  const facebook = document.getElementById('youtube-button');
+  const wpp = document.getElementById('whatsapp-button');
+  const instagram = document.getElementById('instagram-button');
+
+  // Agrega eventos de clic a los botones
+  facebook.addEventListener('click', compartirYoutube);
+  wpp.addEventListener('click', compartirWPP);
+  instagram.addEventListener('click', compartirInstagram);
+  
+  // Función para compartir en las distintas redes sociales
+
+  function compartirYoutube() {
+    const url = 'https://youtube.com/@inesmurtagh9804';
+    window.open(url, '_blank');
+  }
+  
+  function compartirWPP() {
+    const url = 'https://api.whatsapp.com/send?phone=5491155664961';
+    window.open(url, '_blank');
+  }
+
+  function compartirInstagram() {
+    const url = 'https://www.instagram.com/departedeine/';
+    window.open(url, '_blank');
+  }
+
+  </script>
+
 </html>
