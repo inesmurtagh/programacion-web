@@ -1,0 +1,25 @@
+* {
+  font-family: 'Inter', sans-serif;
+  background-color: #babdba;
+}
+
+ /* Navegación */
+ li {
+  display: inline;
+  margin-left: 55px;
+  margin-top: 20px;
+ }
+
+/* Galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: calc(33.33% - 10px);
+    height: 500px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
