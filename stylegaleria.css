@@ -1,6 +1,5 @@
 * {
   font-family: 'Inter', sans-serif;
-  background-color: #babdba;
 }
 
  /* Navegación */
@@ -15,6 +14,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 70px;
+    margin-top: 30px;
   }
   
   .gallery img {
