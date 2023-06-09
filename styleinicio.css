@@ -26,7 +26,7 @@
 
 header{
   height: 100vh;
-  background-image: url('/Images/fondo.png');
+  background-image: url('fondo.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -115,7 +115,7 @@ button{
 
 /*footer*/
 footer{
-  background-image: url('/Images/fondo.png');
+  background-image: url('fondo.png');
 }
 
 .footer-content{
