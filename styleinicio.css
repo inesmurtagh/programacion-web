@@ -165,46 +165,9 @@ footer{
   
  .informacion {
   flex-direction: column;
-}
-
-}
-
-
-@media screen and (max-width: 800px){
-  .footer-content{
-      justify-content: center;
+ }
+ 
+  #contacto{
+    text-align: center;
   }
-  
-  .contact-us{
-      text-align: center;
-      width: 80%;
-      margin-bottom: 40px;
-  }
-}
-
-@media screen and (max-width:500px) {
-  .menu-navegacion{
-      width: 65vw;
-  }
-  .hamburger{
-      top: 20px;
-      right: 20px;
-  }
-  .titulo{
-      font-size: 30px;
-  }
-  .subtitulo{
-      font-size: 30px;
-  }
-  .agregar-imagen{
-      width: 95%;
-
-  }
-  .img-galeria{
-      width: 95%; 
-  }
-  .contact-us{
-      width: 90%;
-  }
-
 }
