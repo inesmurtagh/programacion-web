@@ -8,11 +8,14 @@ body {
 
  /* Navegación */
  li {
-  display: inline;
-  margin-left: 55px;
-  margin-top: 20px;
- }
- 
+    display: inline;
+    margin-left: 55px;
+    margin-top: 20px;
+   }
+  
+  :root{
+    scroll-behavior: smooth;
+  }
 
 /* Banner de fotos */
 .image-container {
@@ -46,7 +49,6 @@ body {
     margin: 0;
     padding: 0 10px;
 }
-
 
 .image-item:hover img {
     opacity: 0.8;
