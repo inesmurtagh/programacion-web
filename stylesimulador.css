@@ -90,19 +90,3 @@ footer {
       transform: translateX(-100%);
   }
 }
-    
-  /* Visión adaptada al celular */
-  @media only screen and (max-width: 1000px) {
-  
-    .title {
-      display: none;
-    }
-    
-   .informacion {
-    flex-direction: column;
-   }
-   
-    #contacto{
-      text-align: center;
-    }
-  }
