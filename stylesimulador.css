@@ -1,65 +1,90 @@
 * {
-    font-family: 'Inter', sans-serif;
-  }
-  
-body {
-    background-color: #babdba;
+  font-family: 'Inter', sans-serif;
 }
 
- /* Navegación */
+body {
+  background-image: url('fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
  li {
-    display: inline;
-    margin-left: 55px;
-    margin-top: 20px;
-   }
-  
-  :root{
-    scroll-behavior: smooth;
-  }
+  display: inline;
+  margin-left: 55px;
+  margin-top: 20px;
+ }
 
+    /*Preuspuesto*/
+    button{
+      border: 0;
+      box-shadow: 0 2px 2px rgba(0, 0,0, 0.5);
+      color:rgba(0, 0, 0, 0.747);
+      font-size: 14px ;
+      padding: 10px 25px;
+    }
+  
+    #contenedor {
+      color: #bababa;
+      background-color: white;
+      margin-top: 100px;
+    }
+    
+    .formulario {
+      width: 80%;
+      padding: 2% 10%;
+      margin: 0 auto;
+    }
+    
+    .formulario h1{
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .formulario input {
+      width: 50%;
+      margin: 30px;
+      border: 0px;
+      border-bottom: 2px solid #bababa;
+      font-size: 18px;
+      color: #bababa;
+    }
+  
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
+/* Estilos del slider */
+.slider-container {
+  overflow: hidden;
+  height: 25px;
+}
 
-  #contacto {
-    font-weight: bold;
-    color: #bababa;
-    background-color: #fff;
-    text-align: end;
-    margin-top: 30px;
-  }
-  
-  .formulario {
-    width: 80%;
-    padding: 2% 10%;
-    margin: 0 auto;
-  }
-  
-  .formulario h1{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
-  }
-  
-  .formulario input {
-    width: 47%;
-    margin: 20px 1%;
-    padding: 8px 10px;
-    border: 0px;
-    border-bottom: 2px solid #bababa;
-    font-size: 18px;
-    color: #bababa;
-  }
-  
-  .formulario form textarea{
-    width: 97%;
-    margin: 20px 1%;
-    padding: 8px 10px;
-    border: 0px;
-    border-bottom: 2px solid #bababa;
-    font-size: 18px;
-    color: #bababa;
-  }
+.slider {
+  display: flex;
+  animation: marquee 40s linear infinite;
+  animation-delay: 2s;
+}
 
-  
+.slider-item {
+  padding: 0 25px;
+  white-space: nowrap;
+}
+
+/* Animación del slider */
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+    
   /* Visión adaptada al celular */
   @media only screen and (max-width: 1000px) {
   
