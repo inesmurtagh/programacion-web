@@ -140,7 +140,11 @@ function presupuesto() {
         alert('No es válido \nVuelve a intentar');
     }
 
-    if (minimo != 0) {
+    if (pasajes == 0) {
+        alert('Por favor ingresar una cantidad de pasajes');
+
+    }
+    else if (minimo != 0) {
         salida = 'En promedio cada pasaje cuesta: $' + js + ' en JetSMART, $' + fb + ' en Flybondi, y $' + aa + ' en Aerolíneas Argentinas';
         alert('\nEntre $' + minimo*pasajes + ' y $' + maximo*pasajes + '\n\n' + salida);
     }
