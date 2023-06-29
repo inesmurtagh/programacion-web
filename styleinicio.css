@@ -170,4 +170,26 @@ footer{
   #contacto{
     text-align: center;
   }
+
+  .formulario h1{
+    font-size: 25px;
+  }
+  
+  .formulario input {
+
+    font-size: 14px;
+  }
+  
+  .formulario form textarea{
+    font-size: 14px;
+  }
+
+  .footer-content{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }  
+  
 }
